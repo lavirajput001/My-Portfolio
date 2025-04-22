@@ -1,4 +1,4 @@
-# 🧑‍💻 Thakur's Portfolio
+# 🧑‍💻 Lavi Rajput's Portfolio
 
 Welcome to my **Personal Portfolio Website**! 🚀  
 Crafted with passion using **HTML**, **CSS**, and **JavaScript** to showcase my skills, projects, and a bit about me. 💼
