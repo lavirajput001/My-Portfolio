@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio cv | Codehal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="" class="logo">Portfolio</a>
+        <ul>
+            <li><a href="#" onclick="goHome()">Home</a></li>
+            
+            <li><a href="#" onclick="toggleSkills()">Skills</a></li>
+            <li><a href="#" onclick="toggleProjects()">Projects</a></li>
+            <li><a href="#" onclick="toggleCertificates()">Certificates</a></li>
+            <li><a href="#" onclick="toggleachivement()">Achievements</a></li>
+            
+            <li><a href="#" onclick="toggleabout()">About</a></li>
+        </ul>
+    </nav>
+
+
+
+
+    <section id="home-section" class="home">
+
+
+        <div class="home-info">
+            <h1>Lavi rajput</h1>
+            <h2>I am AI Machine Learning </h2>
+            <p>I'm a passionate AI-ML Engineer focused on building scalable and intelligent systems. With expertise in Machine Learning, Data Structures, and Web Development. I've worked on various projects like creating a building a Sudoku solver in C++, and exploring real-time applications like emotion detection. Constantly learning new technologies and striving to push the boundaries of what's possible with AI.</p>
+            <div class="btn-sci">
+                <a href="Lavi cv (2).pdf" class="btn">Download CV</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-img">
+                    <img src="WhatsApp Image 2025-04-22 at 13.22.41_5cb8b611.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+          
+    </section>
+
+
+
+
+    <section id="about-section" class="about-section hidden">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    Hi! I'm <strong>Lavi Rajput</strong>, a passionate AI-ML Engineer who loves building intelligent systems.  
+                    I specialize in Machine Learning, C++, and Web Development.  
+                    I’m currently working on smart applications using GPT, data science, and scalable backend systems.
+                </p>
+                <p>
+                    When I’m not coding, I enjoy exploring new tech, solving puzzles, and leveling up my skills.
+                    I believe in lifelong learning and pushing boundaries to create impactful solutions.
+                </p>
+            </div>
+            
+        </div>
+
+
+
+
+
+
+
+
+
+    </section>
+
+
+    
+
+    <section id="skills-section" class="skills-section hidden">
+        <h2>My Skills</h2>
+        <div class="skills-list">
+          <div class="skill-card">
+            <h3>Programming Languages</h3>
+            <ul>
+              <li>C++ (DSA)</li>
+              <li>Python</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+      
+          <div class="skill-card">
+            <h3>AI & Machine Learning</h3>
+            <ul>
+              <li>Supervised & Unsupervised Learning</li>
+              <li>Face Emotion Recognition</li>
+              <li>Generative AI, ChatGPT API</li>
+            </ul>
+          </div>
+      
+          <div class="skill-card">
+            <h3>Web Development</h3>
+            <ul>
+              <li>HTML, CSS, Bootstrap</li>
+              <li>JavaScript</li>
+             
+            </ul>
+          </div>
+      
+          <div class="skill-card">
+            <h3>Tools & Technologies</h3>
+            <ul>
+              <li>Git & GitHub</li>
+              <li>VS Code</li>
+              
+            </ul>
+          </div>
+        </div>
+      </section>
+      
+
+
+
+    
+    <section id="certificates-section" class="certificates-section hidden">
+        <h2>My Certificates</h2>
+        <div class="certificate-list">
+            <div class="certificate-card">
+                <h3>Generative AI</h3>
+                <p>Completed a Generative AI with Large language models course.</p>
+                <img src="Coursera 2ME7MRRQCSKV_page-0001.jpg" alt="Generative AI Certificate" style="max-width: 100%; height: auto; border-radius: 10px; margin-top: 10px;">
+            </div>
+            <div class="certificate-card">
+                <h3>Data Structures </h3>
+                <p>Earned a achievement in Data Structures & Algorithms from Board Infinity.</p>
+                <img src="BI-20240711-9791232 (2)_page-0001.jpg" alt="Generative AI Certificate" style="max-width: 100%; height: auto; border-radius: 10px; margin-top: 10px;">
+            </div>
+            <div class="certificate-card">
+                <h3>ChatGPT Playground for Beginners</h3>
+                <p>Completed ChatGPT Playground for Beginners course.</p>
+                <img src="Coursera 2W3J6SBEYEW3 (1)_page-0001.jpg" alt="ChatGPT Certificate" style="max-width: 100%; height: auto; border-radius: 10px; margin-top: 10px;">
+            </div>
+           
+        </div>
+    </section>
+    
+    
+
+
+
+
+    <section id="projects-section" class="project-section hidden">
+        <h2>My Projects</h2>
+        <div class="project-list">
+            <div class="project-card">
+                <h3>Online Cab Booking System</h3>
+                <p>An Online Cab Booking System is a software solution designed to allow users to book a cab through an online platform, typically a mobile app or a website. This system aims to provide users with the ability to request and schedule rides, and for drivers to accept those requests. These systems are widely used in apps like Uber, Lyft, Ola, etc.</p>
+                <p class="project-tech">Tech: HTML, CSS, JavaScript, Bootstrap</p>
+                <img src="4656e9e486d88280a60812f872222b6d.jpg" alt="Online Cab Booking System" style="max-width: 100%; height: auto; border-radius: 10px; margin-top: 10px;">
+
+            </div>
+            <div class="project-card">
+                <h3>Face emotion recognition </h3>
+                <p>Face Emotion Recognition is a technology that uses computer vision and machine learning techniques to identify and analyze human emotions based on facial expressions. The system detects facial features like the eyes, mouth, and eyebrows, and interprets changes in their movements to determine the emotional state of an individual.</p>
+                <p class="project-tech">Tech: HTML, CSS, JavaScript, Bootstrap</p>
+                <img src="sddefault.jpg" alt="Online Cab Booking System" style="max-width: 100%; height: auto; border-radius: 10px; margin-top: 10px;">
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="achievements-section" class="achievements-section hidden">
+        <h2>My Achievements</h2>
+        <div class="achievement-list">
+            <div class="achievement-card">
+                <h3>Mission grameen</h3>
+                <p>Completed the swachh Bharat mission grameen from my gov</p>
+                <img src="certificate (1).jpg" alt="Generative AI achievement "  style="max-width: 100%; height: auto; border-radius: 10px; margin-top: 10px;">
+            </div>
+            
+            <div class="achievement-card">
+                <h3>Energy Efficiency for sustainable India</h3>
+                <p>Completed Energy Efficiency achievement from my gov</p>
+                <img src="certificate.jpg" alt="Generative AI achievement "  style="max-width: 100%; height: auto; border-radius: 10px; margin-top: 10px;">
+            </div>
+        </div>
+
+
+
+    
+    
+    
+
+
+
+    <script>
+
+
+function toggleabout() {
+    const aboutSection = document.getElementById("about-section");
+    const homeSection = document.getElementById("home-section");
+    const projectSection = document.getElementById("projects-section");
+    const skillsSection = document.getElementById("skills-section");
+    const achievementsSection = document.getElementById("achievements-section");
+    
+    const certificatesSection = document.getElementById("certificates-section");
+
+    aboutSection.classList.remove("hidden");
+    homeSection.classList.add("hidden");
+    projectSection.classList.add("hidden");
+    skillsSection.classList.add("hidden");
+    achievementsSection.classList.add("hidden");
+    
+    certificatesSection.classList.add("hidden")
+
+    aboutSection.scrollIntoView({ behavior: 'smooth' });
+}
+
+function toggleSkills() {
+    const projectSection = document.getElementById("projects-section");
+    const homeSection = document.getElementById("home-section");
+    const skillsSection = document.getElementById("skills-section");
+    const aboutSection = document.getElementById("about-section");
+    const achievementsSection = document.getElementById("achievements-section");
+    
+    const certificatesSection = document.getElementById("certificates-section");
+
+    skillsSection.classList.remove("hidden");
+    homeSection.classList.add("hidden");
+    projectSection.classList.add("hidden");
+    aboutSection.classList.add("hidden");
+    achievementsSection.classList.add("hidden");
+    
+    certificatesSection.classList.add("hidden")
+
+    skillsSection.scrollIntoView({ behavior: 'smooth' });
+}
+
+
+
+function toggleCertificates() {
+    const certificatesSection = document.getElementById("certificates-section");
+    const homeSection = document.getElementById("home-section");
+    const projectSection = document.getElementById("projects-section");
+    const skillsSection = document.getElementById("skills-section");
+    const aboutSection = document.getElementById("about-section");
+    const achievementsSection = document.getElementById("achievements-section");
+    
+
+    certificatesSection.classList.remove("hidden");
+    homeSection.classList.add("hidden");
+    projectSection.classList.add("hidden");
+    skillsSection.classList.add("hidden");
+    aboutSection.classList.add("hidden");
+    achievementsSection.classList.add("hidden");
+    
+    
+
+    certificatesSection.scrollIntoView({ behavior: 'smooth' });
+}
+
+
+
+
+
+function toggleProjects() {
+    const projectSection = document.getElementById("projects-section");
+    const homeSection = document.getElementById("home-section");
+    const skillsSection = document.getElementById("skills-section");
+    const aboutSection = document.getElementById("about-section");
+    const achievementsSection = document.getElementById("achievements-section");
+   
+    const certificatesSection = document.getElementById("certificates-section");
+
+    projectSection.classList.remove("hidden");
+    homeSection.classList.add("hidden");
+    skillsSection.classList.add("hidden");
+    aboutSection.classList.add("hidden");
+    achievementsSection.classList.add("hidden");
+    
+    certificatesSection.classList.add("hidden")
+
+    projectSection.scrollIntoView({ behavior: 'smooth' });
+}
+
+function toggleachivement() {
+    const achievementsSection = document.getElementById("achievements-section");
+    const homeSection = document.getElementById("home-section");
+    const projectSection = document.getElementById("projects-section");
+    const skillsSection = document.getElementById("skills-section");
+    const aboutSection = document.getElementById("about-section");
+    
+    const certificatesSection = document.getElementById("certificates-section");
+
+    achievementsSection.classList.remove("hidden");
+    homeSection.classList.add("hidden");
+    projectSection.classList.add("hidden");
+    skillsSection.classList.add("hidden");
+    aboutSection.classList.add("hidden");
+    
+    certificatesSection.classList.add("hidden")
+
+    achievementsSection.scrollIntoView({ behavior: 'smooth' });
+}
+
+
+
+function goHome() {
+    const projectSection = document.getElementById("projects-section");
+    const homeSection = document.getElementById("home-section");
+    const skillsSection = document.getElementById("skills-section");
+    const aboutSection = document.getElementById("about-section");
+    const achievementsSection = document.getElementById("achievements-section");
+   
+    const certificatesSection = document.getElementById("certificates-section"); 
+
+    homeSection.classList.remove("hidden");
+    projectSection.classList.add("hidden");
+    skillsSection.classList.add("hidden");
+    aboutSection.classList.add("hidden");
+    achievementsSection.classList.add("hidden");
+    
+    certificatesSection.classList.add("hidden"); 
+
+    homeSection.scrollIntoView({ behavior: 'smooth' });
+}
+
+
+    </script>
+
+</body>
+</html>
